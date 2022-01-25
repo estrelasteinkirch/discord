@@ -71,7 +71,7 @@ export default function PaginaInicial() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          backgroundColor: appConfig.theme.colors.neutrals[100],
+          backgroundColor: appConfig.theme.colors.neutrals[300],
         }}
       >
         <Box
@@ -122,8 +122,8 @@ export default function PaginaInicial() {
                 neutral: {
                   textColor: appConfig.theme.colors.font[100],
                   mainColor: appConfig.theme.colors.neutrals[900],
-                  mainColorHighlight: appConfig.theme.colors.primary[500],
-                  backgroundColor: appConfig.theme.colors.neutrals[800],
+                  mainColorHighlight: appConfig.theme.colors.primary[150],
+                  backgroundColor: appConfig.theme.colors.neutrals[100],
                 },
               }}
             />
@@ -133,9 +133,9 @@ export default function PaginaInicial() {
               fullWidth
               buttonColors={{
                 contrastColor: appConfig.theme.colors.neutrals["000"],
-                mainColor: appConfig.theme.colors.primary[500],
-                mainColorLight: appConfig.theme.colors.primary[400],
-                mainColorStrong: appConfig.theme.colors.primary[600],
+                mainColor: appConfig.theme.colors.primary[150],
+                mainColorLight: appConfig.theme.colors.primary[110],
+                mainColorStrong: appConfig.theme.colors.primary[190],
               }}
             />
           </Box>
@@ -149,9 +149,9 @@ export default function PaginaInicial() {
               alignItems: "center",
               maxWidth: "200px",
               padding: "16px",
-              backgroundColor: appConfig.theme.colors.neutrals[800],
+              backgroundColor: appConfig.theme.colors.primary[110],
               border: "1px solid",
-              borderColor: appConfig.theme.colors.neutrals[999],
+              borderColor: appConfig.theme.colors.neutrals[900],
               borderRadius: "10px",
               flex: 1,
               minHeight: "240px",
@@ -167,9 +167,9 @@ export default function PaginaInicial() {
             <Text
               variant="body4"
               styleSheet={{
-                color: appConfig.theme.colors.neutrals[200],
+                color: appConfig.theme.colors.primary[110],
                 backgroundColor: appConfig.theme.colors.neutrals[900],
-                padding: "3px 10px",
+                padding: "5px 10px",
                 borderRadius: "1000px",
               }}
             >
